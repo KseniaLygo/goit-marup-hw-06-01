@@ -21,7 +21,8 @@
     <header class="border">
         <div class="header-container container">
             <nav class="navigat">
-                <a id="logo" href="./index.html">WebStudio</a>
+                <a id="logo" href="./index.html">Web</a>
+                <a id="logo3" href="./index.html">Studio</a>
                 <ul class="header-2">
                     <li class="header-h-cont"><a class="nav2 current" href="./index.html">Studio</a></li>
                     <li class="header-h-cont"><a class="nav2 " href="./portfolio.html">Portfolio</a></li>
@@ -324,7 +325,8 @@
     <footer class="foot-all">
         <div class="container-foot">
             <div>
-                <a class="foot4" id="logo1" href="./index.html">WebStudio</a>
+                <a class="foot4" id="logo1" href="./index.html">Web</a>
+                <a class="foot4" id="logo4" href="./index.html">Studio</a>
                 <address class="foot8">
                     <ul class="foot-text">
                         <li class="foot-h">
@@ -380,17 +382,18 @@
             </div>
             <div class="Email">
                 <p class="Email3">Subscribe to the newsletter</p>
-                <div class="flie2">
+               <div class="Email6">
+                <form class="flie2" name="signup_form" autocomplete="on" novalidate>
                 <label class="email-me">
                    <input class="Email4" type="email" name="user_mail" placeholder="E-mail">
                 </label>
-                <button class="flie" type="button">Suscribe
+            </form>
+                <button class="flie" type="submit">Suscribe
                     <svg class="socials-icon9" width="24" height="24">
                         <use href="./images/icons.svg#icon-icon-send-1"></use>
                     </svg>
                 </button>
             </div>
-               
             </div>
         </div>
     </footer>
@@ -436,9 +439,12 @@
                         <label class="form-agreement">
                             <input class="form-checkbox" type="checkbox" 
                             name="agreement-checkbox" />
-                            <span>I agree with the newsletter and accept the Terms and Conditions</span>
+                            <span class="form-agreement-text">I agree with the newsletter and accept
+                            <a class="form-agreement-link" href="">the Terms and Conditions</a> 
+                        </span>
+
                         </label>
-                        <button class="form-btn">Send</button>
+                        <button class="form-btn" type="submit">Send</button>
                     </div>
                 </div>
             </form>
